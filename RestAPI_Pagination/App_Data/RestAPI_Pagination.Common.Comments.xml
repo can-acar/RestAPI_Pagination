@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Id">
+            <summary>
+            Customer Id
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.ContactPerson">
+            <summary>
+            Customer Name
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Phone">
+            <summary>
+            Phone
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Fax">
+            <summary>
+            Fax number
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Email">
+            <summary>
+            Email address
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.City">
+            <summary>
+            city
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Region">
+            <summary>
+            customer region
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Country">
+            <summary>
+            Country
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.CountryId">
+            <summary>
+            Country Id
+            </summary>
+        </member>
+        <member name="F:Common.Enum.CustomerPaginationGridColumns.Balance">
+            <summary>
+            customer balance
+            </summary>
+        </member>
+        <member name="T:Common.Enum.OrderDirection">
+            <summary>
+            Order Direction Ascending Or Descending
+            </summary>
+        </member>
+        <member name="F:Common.Enum.OrderDirection.desc">
+            <summary>
+            Descending Order
+            </summary>
+        </member>
+        <member name="F:Common.Enum.OrderDirection.asc">
+            <summary>
+            Ascending Order
+            </summary>
+        </member>
+        <member name="F:Common.Enum.QueryStringType.CustomerDBEntityFramework">
+            <summary>
+            connection string sql provider for customer DB usage
+            </summary>
+        </member>
+        <member name="F:Common.Enum.QueryStringType.CustomerDBNonEntityFramework">
+            <summary>
+            connection string sql provider for customer DB usage
+            </summary>
+        </member>
+        <member name="T:Common.Model.PaginationRequest`1">
+            <summary>
+            Generic pagination Reqeust Model
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.CurrentPage">
+            <summary>
+            Page number From Which Requestee Wants To Start Its Pagination
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.PageSize">
+            <summary>
+            Requestee Prefered Page Size
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.SearchText">
+            <summary>
+            Generic Search Means search Through All Visible Columns
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.SortColumn">
+            <summary>
+            Name Of The Column With Which Requestee Wants To Order By
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.SortDirection">
+            <summary>
+            Direction Of Order By Columns "desc" For Descending And "asc" For Ascending
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.HasPagination">
+            <summary>
+            To return records with pagination this property has to be true, by default its false
+            </summary>
+        </member>
+        <member name="P:Common.Model.PaginationRequest`1.Columns">
+            <summary>
+            These Are The List Of Filters On Specific Columns
+            </summary>
+        </member>
+        <member name="T:Common.Model.ColumnParameter`1">
+            <summary>
+            These Are The List Of Filters On Specific Columns
+            </summary>
+        </member>
+        <member name="T:Common.Model.PaginationResponse`1">
+            <summary>
+            Pagination Response Model
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:Common.Model.PaginationResponse`1.Items">
+            <summary>
+            Array Of Requested Records Or Data
+            </summary>
+        </member>
+        <member name="F:Common.Model.PaginationResponse`1.RecordsTotal">
+            <summary>
+            Total Number Of Records Found Against Requestee Search
+            </summary>
+        </member>
+    </members>
+</doc>

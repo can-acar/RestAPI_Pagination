@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestAPI_Pagination</name>
+    </assembly>
+    <members>
+        <member name="T:RestAPI_Pagination.Controllers.BaseController">
+            <summary>
+            Base class for all Controller
+            </summary>
+        </member>
+        <member name="T:RestAPI_Pagination.OperationFilters.Consumes">
+            <summary>
+            This represents the filter entity for the "consumes" field in Swagger definitions.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.OperationFilters.Consumes.Apply(Swashbuckle.Swagger.Operation,Swashbuckle.Swagger.SchemaRegistry,System.Web.Http.Description.ApiDescription)">
+            <inheritdoc />
+        </member>
+        <member name="T:RestAPI_Pagination.OperationFilters.Produces">
+            <summary>
+            This represents the filter entity for the "produces" field in Swagger definitions.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.OperationFilters.Produces.Apply(Swashbuckle.Swagger.Operation,Swashbuckle.Swagger.SchemaRegistry,System.Web.Http.Description.ApiDescription)">
+            <inheritdoc />
+        </member>
+        <member name="T:RestAPI_Pagination.OperationFilters.SwaggerConsumesAttribute">
+            <summary>
+            This represents the attribute entity for the "consumes" field in Swagger definitions.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.OperationFilters.SwaggerConsumesAttribute.#ctor(System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestAPI_Pagination.OperationFilters.SwaggerConsumesAttribute"/> class.
+            </summary>
+            <param name="contentTypes">List of content types to consume.</param>
+        </member>
+        <member name="P:RestAPI_Pagination.OperationFilters.SwaggerConsumesAttribute.ContentTypes">
+            <summary>
+            Gets the content type.
+            </summary>
+        </member>
+        <member name="T:RestAPI_Pagination.OperationFilters.SwaggerProducesAttribute">
+            <summary>
+            This represents the attribute entity for the "produces" field in Swagger definitions.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.OperationFilters.SwaggerProducesAttribute.#ctor(System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestAPI_Pagination.OperationFilters.SwaggerProducesAttribute"/> class.
+            </summary>
+            <param name="contentTypes">List of content types to produce.</param>
+        </member>
+        <member name="P:RestAPI_Pagination.OperationFilters.SwaggerProducesAttribute.ContentTypes">
+            <summary>
+            Gets the content type.
+            </summary>
+        </member>
+        <member name="T:RestAPI_Pagination.SchemaFilters.Requests">
+            <summary>
+            This represents the schema filter entity for the request model classes.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.SchemaFilters.Requests.#ctor(System.Type[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestAPI_Pagination.SchemaFilters.Requests"/> class.
+            </summary>
+            <param name="types">List of types to consider in XML request payload.</param>
+        </member>
+        <member name="M:RestAPI_Pagination.SchemaFilters.Requests.Apply(Swashbuckle.Swagger.Schema,Swashbuckle.Swagger.SchemaRegistry,System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="T:RestAPI_Pagination.SchemaFilters.Responses">
+            <summary>
+            This represents the schema filter entity for the response model classes.
+            </summary>
+        </member>
+        <member name="M:RestAPI_Pagination.SchemaFilters.Responses.#ctor(System.Type[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:RestAPI_Pagination.SchemaFilters.Responses"/> class.
+            </summary>
+            <param name="types">List of types to consider in XML request payload.</param>
+        </member>
+        <member name="M:RestAPI_Pagination.SchemaFilters.Responses.Apply(Swashbuckle.Swagger.Schema,Swashbuckle.Swagger.SchemaRegistry,System.Type)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
